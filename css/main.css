@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100&display=swap');
+*{
+    border: none;
+}
+
+.table {
+    font-family: 'Montserrat', sans-serif;
+        border-radius: 5px;
+}
+
+tr,td {
+    border: none;
+}
+
+.num{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.num1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.free_s{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: wheat;
+    border-radius: 5px;
+}
+.free_s:hover {
+    cursor: pointer;
+    background: rgb(192, 4, 183);
+  }
+
+.exit_s{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: rgb(255, 181, 43);
+    border-radius: 5px;
+}
+.exit_s:hover {
+    cursor: pointer;
+    background: rgb(192, 4, 183);
+  }
+
+.taken_s{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: rgb(151, 151, 151);
+    border-radius: 5px;
+}
+
+.chosen_s{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: rgb(192, 4, 183);
+    border-radius: 5px;
+}
+
+.free_ss{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: wheat;
+    border-radius: 5px;
+}
+
+
+.exit_ss{
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 4px 4px 4px 4px;
+    background: rgb(255, 181, 43);
+    border-radius: 5px;
+}
