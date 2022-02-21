@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Алаколь купить билет</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="booking-cta">
+							<h1>Алаколь</h1>
+							<p>Пришло время позагорать на пляже, подышать свежим морским воздухом и натанцеваться до упаду
+Беззаботные деньки на пляже в отличной компании точно помогут вам забыться и просто наслаждаться отдыхом.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="booking-form">
+							<form>
+								<div class="form-group">
+									<span class="form-label">Ваше имя и фамилия</span>
+									<input class="form-control" type="text" placeholder="Напишите ваше имя и фамилию ">
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Взрослые</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Дети</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Выбрать место в автобусе</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="booking-form" >
+						<table class="table" cellpadding="4" cellspacing="4" style="border: none;">
+     				     
+            				<tr style="border: none;">
+                				<td class="num" style="border: none;">A</td>
+               					<td class="num" style="border: none;">B</td>
+                				<td class="num" style="border: none;">&nbsp;</td>
+                				<td class="num" style="border: none;">C</td>
+                				<td class="num" style="border: none;">D</td>
+            				</tr>
+            				<tr style="border: none;">
+                				<td class="free_s" id="a1" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+                				<td class="exit_s" id="b1" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+                				<td class="num" style="border: none;">1</td>
+                				<td class="exit_s" id="c1" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+                				<td class="exit_s" id="d1" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				</tr>
+            				<tr style="border: none;">
+                				<td class="free_s" id="a2" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+                				<td class="free_s" id="b2" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+              				    <td class="num" style="border: none;">2</td>
+                				<td class="free_s" id="c2" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+                				<td class="free_s" id="d2" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				</tr>
+           				 	<tr style="border: none;">
+           				 	    <td class="free_s" id="a3" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           				 	    <td class="free_s" id="b3" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           				 	    <td class="num" style="border: none;">3</td>
+           				 	    <td class="free_s" id="c3" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           				 	    <td class="free_s" id="d3" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           				 	</tr>
+            			    <tr style="border: none;">
+            			        <td class="free_s" id="a4" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            			        <td class="free_s" id="b4" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            			        <td class="num" style="border: none;">4</td>
+            			        <td class="free_s" id="c4" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+             			       <td class="free_s" id="d4" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            			    </tr>
+				            <tr style="border: none;">
+            				    <td class="free_s" id="a5" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="exit_s" id="b5" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="num" style="border: none;">5</td>
+            				    <td class="exit_s" id="c5" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="exit_s" id="d5" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+ 				           </tr>
+        	    			<tr style="border: none;">
+               					 <td class="free_s" id="a6" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+              					  <td class="exit_s" id="b6" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+				          	      <td class="num" style="border: none;">6</td>
+				          	      <td class="exit_s" id="c6" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+          	    				  <td class="exit_s" id="d6" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+          	  				</tr>
+            				<tr>
+            				    <td class="free_s" id="a7" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="b7" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="num" style="border: none;">7</td>
+            				    <td class="free_s" id="c7" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="d7" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				</tr>
+            				<tr>
+            				    <td class="free_s" id="a8" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="b8" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="num" style="border: none;">8</td>
+            				    <td class="free_s" id="c8" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="d8" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				</tr>
+            				<tr>
+            				    <td class="free_s" id="a9" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="b9" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="num" style="border: none;">9</td>
+            				    <td class="free_s" id="c9" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				    <td class="free_s" id="d9" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+            				</tr>
+           					 <tr>
+           					     <td class="free_s" id="a10" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           					     <td class="free_s" id="b10" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           					     <td class="num" style="border: none;">10</td>
+           					     <td class="free_s" id="c10" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           					     <td class="free_s" id="d10" onclick="takeSeat(id)" style="border: none;">&nbsp;</td>
+           					 </tr>
+        				</table>
+        				<div class="form-btn">
+									<button class="submit-btn" style="width: 100%;">Купить</button>
+								</div>
+        			</div>
+					</div>
+					
+	<script>
+		 let click = 0;
+        var exit_seats = ['b1','c1','d1','b5','b6','c5','c6','d5','d6'];
+    
+        function takeSeat(id){
+            
+            if (click == 0){
+                document.getElementById(id).style.backgroundColor = "#c004b7";
+                click = 1;
+            } 
+            else if (exit_seats.includes(id) && click == 1){
+                document.getElementById(id).style.backgroundColor = "#ffb52b";
+                click = 0;
+            } 
+            else if (click == 1){
+                document.getElementById(id).style.backgroundColor = "wheat";
+                click = 0;
+            }
+            
+		}
+    </script>
+</body>
+
+</html>

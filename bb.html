@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function takeSeat(id){
+            document.getElementById(id).style.backgroundColor = "#c004b7";
+            
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <table cellpadding="6" cellspacing="7">
+            <tr>
+                <td>&nbsp;</td>
+                <td class="num1">Типы мест</td>
+            </tr>
+            
+            <tr>
+                <td class="free_ss">&nbsp;</td>
+                <td class="num1">Место свободна</td>
+            </tr>
+
+            <tr>
+                <td class="exit_ss">&nbsp;</td>
+                <td class="num1">Место у аварийного выхода</td>
+            </tr>
+
+            <tr>
+                <td class="taken_s">&nbsp;</td>
+                <td class="num1">Место занято / недоступно</td>
+            </tr>
+
+            <tr>
+                <td class="chosen_s">&nbsp;</td>
+                <td class="num1">Выбранное место</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table class="table" cellpadding="6" cellspacing="5">
+            <tr>
+                <td class="num">&nbsp;</td>
+                <td class="num">&nbsp;</td>
+                <td class="num">&nbsp;</td>
+                <td class="num">&nbsp;</td>
+                <td class="num">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="num">A</td>
+                <td class="num">B</td>
+                <td class="num">&nbsp;</td>
+                <td class="num">C</td>
+                <td class="num">D</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a1" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="b1" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">1</td>
+                <td class="exit_s" id="c1" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="d1" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a2" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b2" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">2</td>
+                <td class="free_s" id="c2" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d2" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a3" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b3" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">3</td>
+                <td class="free_s" id="c3" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d3" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a4" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b4" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">4</td>
+                <td class="free_s" id="c4" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d4" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a5" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="b5" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">5</td>
+                <td class="exit_s" id="c5" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="d5" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a6" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="b6" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">6</td>
+                <td class="exit_s" id="c6" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="exit_s" id="d6" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a7" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b7" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">7</td>
+                <td class="free_s" id="c7" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d7" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a8" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b8" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">8</td>
+                <td class="free_s" id="c8" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d8" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a9" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b9" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">9</td>
+                <td class="free_s" id="c9" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d9" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="free_s" id="a10" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="b10" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="num">10</td>
+                <td class="free_s" id="c10" onclick="takeSeat(id)">&nbsp;</td>
+                <td class="free_s" id="d10" onclick="takeSeat(id)">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
